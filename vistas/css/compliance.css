@@ -1,0 +1,48 @@
+.rutaPaginaCompliance{
+font-family: 'Titillium Web', sans-serif !important;
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: url('../img/sort_asc.png');
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: url('../img/sort_desc.png');
+}.btn-success{
+    border-radius: 4px;
+    background-color: #19bd78;}
+    .textoBusqueda{
+    	line-height: 40px;
+    }
+.badgePDF{
+	cursor: pointer;
+display: block;
+    margin: auto;
+    width: 15px;
+    font-size: 30px;
+	}
+	.badgePDF:hover .badgePDF > i{color: red;
+	}
+	#table_id_length, .paginate_button, .dataTables_info,#table_id_filter{display: none !important;}
+
+	#table_id > thead > tr > th{
+	cursor: pointer;
+    font-size: 20px;
+	}
+	#table_id > tbody > tr > td{
+	cursor: default;
+    font-size: 18px;
+	}
+/*-------------------------MEDIA QUERYS-----------------------*/
+/*LG -LARGO */
+@media (max-width: 1200px){
+}
+/*MD - MEDIANO*/
+@media (max-width: 992px){
+}
+/*SM - PEQUEÑO*/
+@media (max-width: 768px){
+}
+/*XS - EXTRA PEQUEÑO*/
+@media (max-width: 576px){
+}

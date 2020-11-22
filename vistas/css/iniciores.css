@@ -1,0 +1,308 @@
+.carousel-caption {
+position: absolute;
+right: 15%;
+bottom: 100px;
+left: 15%;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #fff;
+text-align: center;
+}
+.title-header-copy-2 {
+color: #FFFFFF;
+font-size: 44px;
+font-weight: 700;
+line-height: 45px;
+text-align: left;
+cursor: pointer;
+}
+.title-header-copy-3 {
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+}
+.title-header-copy-2:hover {
+	text-decoration: underline;
+}
+.carousel-inner .carousel-item img{
+border-radius: 0px !important;
+box-shadow: none !important;
+height: 30px !important;
+position: relative;
+top: 5px;
+width: 25px !important;
+}
+.carousel-item{
+height: 750px; background-size: cover;
+background-position: center center;
+}
+.fijarTamanio-200{
+height: 180px;
+margin-bottom: 30px;
+}
+#carouselExampleIndicators > ol > li {
+cursor: pointer;
+width: 13px;
+height: 12px;
+border-radius: 32px;
+background-color: #ffffff00;
+border: solid 1px white;
+padding-right: 10px;
+margin: 10px;
+}
+#carouselExampleIndicators > ol > li.active {
+background-color: #ffffff;
+}
+.dnoneHover-cat{
+visibility: hidden;
+background-color: #19BD78;
+cursor: pointer;
+}
+.bannerCelda:hover .dnoneHover-cat{
+visibility: visible;
+}
+.bannerCelda{height: 400px;
+background-color: #19BD78;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.bannerLiga > div{
+color: #FFFFFF;
+width: 100%;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+text-align: center;
+}
+.bannerLiga > div > img{
+height: 66px;
+}
+.chargers-banner {
+color: #FFFFFF;
+padding-top: 25px;
+padding-bottom: 25px;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+text-align: center;
+}
+.columnaSliders {
+background-color: #2A2A2A;
+height: 500px;
+}
+.columnaSliders2 {
+height: 500px;
+}
+.obtenerSlides{
+margin-top: 20px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+.promos-events {
+padding-left: 30px;
+padding-top: 30px;
+color: #19BD78;
+font-size: 28px;
+font-weight: 700;
+line-height: 34px;
+text-align: left;
+}
+.promgame-events{
+padding-top: 20px;
+color: #D9D7D5;
+font-size: 19px;
+font-weight: 700;
+line-height: 23px;
+text-align: left;
+}
+.promgame-events-desc{
+padding-top: 5px;
+color: #D9D7D5;
+font-size: 15px;
+font-weight: 700;
+line-height: 23px;
+text-align: left;
+}
+.imagen-obtenerSlides{
+height: 270px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.producto-obtenerSlides{
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.carousel-events > .owl-dots{
+padding-right: 30px;
+padding-left: 30px;
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+}
+.carousel-products > .owl-dots{
+padding-right: 30px;
+padding-left: 30px;
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+padding-top: 5px;
+}
+.carousel-events.owl-carousel button.owl-dot{
+background-color: #ffffff00;
+width: 10px;
+height: 10px;
+border: 1px solid white;
+border-radius: 20px;
+padding-right: 20px;
+margin: 5px;
+}
+.carousel-events.owl-carousel button.owl-dot.active{
+background-color: #ffffff;
+}
+.carousel-products.owl-carousel button.owl-dot{
+background-color: #ffffff00;
+width: 10px;
+height: 10px;
+border: 1px solid #19BD78;
+border-radius: 20px;
+padding-right: 20px;
+margin: 5px;
+}
+.carousel-products.owl-carousel button.owl-dot.active{
+background-color: #19BD78;
+}
+.carousel-products .owl-item:hover .p-obtenerSlides{
+border: 3px solid #19BD78;
+box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.20000000298023224);
+
+}
+.carousel-products .owl-item .p-obtenerSlides{
+border: 3px solid #19BD7800;
+box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.20000000298023224);
+
+}
+.doubles-tennis-pack {
+color: #222222;
+font-size: 15px;
+font-weight: 700;
+text-align: center;
+width: 100%;
+}
+.p-obtenerSlides {
+background-color: #FFFFFF;
+border-radius: 6px;
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20000000298023224);
+height: 330px;
+}
+.pCarContenedores{
+height: 50px;
+overflow: hidden;
+align-items: center!important;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.doubles-tennis {
+color: #222222;
+width: 100%;
+font-size: 12px;
+font-weight: 100;
+text-align: center;
+}
+.input-subsusub{
+background: #ffffff00 !important;
+border-radius: 0px !important;
+border: 0px 1px 0px 0px !important;
+border-top: 0px !important;
+border-left: 0px !important;
+border-right: 0px !important;
+font-size: 17px !important;
+border-bottom: solid 3px white !important;
+}
+.input-subsusub-btn{
+background: #ffffff00 !important;
+border-radius: 0px !important;
+border: 0px 1px 0px 0px !important;
+border-top: 0px !important;
+border-left: 0px !important;
+border-right: 0px !important;
+border-bottom: solid 3px white !important;
+}
+.sectionSubscribirse{ background-color: #19BD78;
+height: 254px;}
+.subs-arriba{
+font-size: 32px;
+font-weight: 700;
+line-height: 35px;
+text-align: center;
+color: white;
+}
+.subs-abajo{
+font-size: 25px;
+color: white;
+font-weight: 200;
+line-height: 35px;
+text-align: center;
+}
+.subs-abajo-email  {
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+width: 459px;
+color: white;
+text-align: left;
+}
+/*-------------------------MEDIA QUERYS-----------------------*/
+/*LG -LARGO */
+@media (max-width: 1200px){
+}
+/*MD - MEDIANO*/
+@media (max-width: 992px){
+
+	.subs-arriba {
+		text-align: left;
+    font-size: 16px;}
+.bannerCelda {
+height: 200px;}
+.title-header-copy-3 {
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+}
+.carousel-item{
+height: 390px;
+}
+.title-header-copy-2 {
+font-size: 26px;
+line-height: 26px;
+text-align: center;
+}
+.bannerLiga > .chargers-banner{
+font-size: 22px;}
+.bannerLiga > div > .fas {
+position: relative;
+top: -20px;
+font-size: 22px;}
+.bannerLiga > div > img {
+height: 46px;
+position: relative;
+top: 20px;
+}
+.columnaSliders {
+    height: 520px;}
+}
+/*SM - PEQUEÑO*/
+@media (max-width: 768px){
+}
+/*XS - EXTRA PEQUEÑO*/
+@media (max-width: 576px){
+}

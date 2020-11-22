@@ -1,0 +1,52 @@
+.btnLinkFichaTecnica{
+    background-color: #0f92ef;
+    border-color: #0f71d6;
+}
+.AsteriscoCaracteristica{
+margin-bottom: 6px;
+font-size: 10px;
+color: #3c8dbc;
+margin-right: 10px;
+}
+.DescripcionesDeCaracteristicas, .DescripcionesDeProducto{display: block;  max-height: 180px !important;overflow: hidden;}
+.labelInputFile { cursor: pointer;  color: black;  text-decoration:underline;   }
+.ImagenLabel {
+height: 15px;
+padding-left: 15px;
+color: black;
+}
+.labelInputFile:hover, .labelInputFile:hover > i {
+color: #367fa9;
+}
+.form-control-file {
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+.form-control-file + label {
+font-size: 1.25em;
+font-weight: 700;
+display: inline-block;
+}
+.form-control-file:focus + label,
+.form-control-file + label:hover {
+background-color: red;
+}
+#the-canvas {
+  border:1px solid black;
+   max-width: 100%; 
+	margin: auto;
+    display: block;
+}
+.PDF_VIEWER{
+	display: none;
+}
+#prev :hover, #next :hover{
+	cursor: pointer;    
+}
+#prev :active, #next :active{
+	color: #0029ffcf; 
+}

@@ -1,0 +1,128 @@
+.banner{
+height: 300px; 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.controllers {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+.rutaPagina > a{
+text-decoration: none;
+color: #2A2A2A;
+}
+.filtroCatalogo  .dropdown-item.activo {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #07bd19a6;
+}
+.filtroCatalogo  .dropdown-item {    
+    background-color: #78f3453b;
+    border-bottom: 1px solid #1476a229;
+}
+.filtroCatalogo  .dropdown-menu{
+ transform: translate3d(-120px, 50px, 0px)  !important;
+}
+.cardProducto{
+  min-height: 275px;
+  border-radius: 6px;
+  border: 3px solid #19BD7800;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.20000000298023224);
+  width: 255px;
+}
+.cardProducto .invisibilizar{
+	visibility: hidden;
+}
+.cardProducto:hover .invisibilizar{
+	visibility: unset;
+}
+.cardProducto:hover{
+background-color: #FFFFFF;
+  border: 3px solid #19BD78;
+  box-shadow: 0 11px 20px 0 rgba(0, 0, 0, 0.20000000298023224);
+  width: 300px;
+}
+.producto-obtenerSlides{
+  height: 250px;
+  width: 225px;
+      display: block;
+    margin: auto;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.doubles-tennis-pack {
+  color: #222222;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  width: 100%;
+}
+.doubles-tennis {
+  color: #222222;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 23px;
+  text-align: center;
+}
+.doubles-detalles a{
+	text-decoration: none;
+  color: #19BD78;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  width: 100%;
+  text-align: center;
+}
+.doubles-detalles{
+	text-decoration: none;
+  color: #19BD78;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  width: 100%;
+  text-align: center;
+}
+.filtroCatalogo .btn:hover, 
+.filtroCatalogo .btn:focus, 
+.filtroCatalogo .btn:active, 
+.filtroCatalogo .btn, 
+.filtroCatalogo .btn.active, 
+.filtroCatalogo .show > .btn.dropdown-toggle {
+    background-color: #19BD78;
+    color: #FFFFFF;
+    border-color: #19BD78;
+}
+
+
+.dropdown-menu  .dropdown-item{cursor: pointer;}
+
+
+/*-------------------------MEDIA QUERYS-----------------------*/
+/*LG -LARGO */
+@media (max-width: 1200px){
+}
+/*MD - MEDIANO*/
+@media (max-width: 992px){
+  .dropdown.show .dropdown-menu, .dropdown .dropdown-menu {
+    background-color: white !important;}
+.rutaPagina{
+  display: none;
+}
+.filtroCatalogo .dropdown-menu {
+    transform: translate3d(0px, 40px, 0px) !important;
+}
+}
+/*SM - PEQUEÑO*/
+@media (max-width: 768px){
+}
+/*XS - EXTRA PEQUEÑO*/
+@media (max-width: 576px){
+}

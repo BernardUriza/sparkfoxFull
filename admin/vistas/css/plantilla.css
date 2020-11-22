@@ -1,0 +1,72 @@
+   .form-group h2{ border-bottom: solid 3px;
+    padding-bottom: 10px;
+}
+input[type=file] {
+    padding-bottom: 10px;
+}
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    top: 0px !important; 
+    }
+/*=============================================
+REDES SOCIALES
+=============================================*/
+.login-page, .register-page {
+    background: #000;
+}
+.login-box-body, .register-box-body {
+    background: #000;}
+    .login-box-msg, .register-box-msg {
+    color: #fff;}
+    .skin-blue .main-header .logo {
+    background-color:#222D32
+  }
+.redSocial, .icoServicio{
+	width:30px;
+	height:30px;
+	text-align: center;
+	line-height:30px;
+	color:white;
+	background: black;
+}
+
+.ImagenesPlantilla{    margin-right: 0px !important;
+    margin-left: 0px !important;}
+
+
+/*  MODAL CLIENTE EN ESPERA  */
+.modalClienteEnEspera {
+  /*  display:    none !important;*/
+    position:   fixed !important;
+    z-index:    1060  !important;
+    top:        0 !important;
+    left:       0 !important;
+    cursor: 	wait;
+    height:     100% !important;
+    width:      100% !important;
+    opacity: 0.5;
+    background: rgb( 255, 255, 255 ) 
+                url('../img/spinner.gif?88576') 
+                50% 50% 
+                no-repeat  !important;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modalClienteEnEspera {
+    display: block !important;
+}
+.BarraDeProgreso{
+  bottom: 0px;
+  height: 3%;
+  margin:  0px;
+  width: 100%;
+  position:  absolute;}

@@ -1,0 +1,71 @@
+/* @override 
+	http://ar2design.com/devSparkfox/vistas/css/blog.css?3321
+	http://ar2design.com/devSparkfox/vistas/css/blog.css?3364
+*/
+
+.imagenRespaldoDiv{
+	height: 420px;width: 500px;background-position: center;background-size: cover;background-repeat: no-repeat;
+	    border-radius: 6px!important;
+	    
+}
+
+b, strong {
+    font-weight: 900 !important;
+}
+
+p{
+	/*padding-right: 10px;
+	padding-left: 10px;*/
+	  text-align: justify;
+  text-justify: inter-word;
+}
+.main .section:first-of-type {
+    border-radius: 5px;
+}
+.page-header {
+    min-height: 50vh !important;}
+    
+ div.section.section-text {
+	padding: 60px 20px 20px;
+	color: #424242;
+}
+div.section.section-text h3{
+	font-weight: bold;
+	margin: 0;
+	font-size: 32px;
+	line-height: 37px;
+}
+/*-------------------------MEDIA QUERYS-----------------------*/
+/*LG -LARGO */
+@media (max-width: 1200px){
+}
+/*MD - MEDIANO*/
+@media (max-width: 992px){
+.imagenRespaldoDiv{margin-left: auto;margin-right: auto;display: block; margin-top: 10px; margin-bottom: 10px;}
+
+#main > div.container.mw-100.w-100{display: none;}
+.page-header {
+    min-height: 60vh !important;}
+}
+/*SM - PEQUEÑO*/
+@media (max-width: 768px){
+}
+/*XS - EXTRA PEQUEÑO*/
+@media (max-width: 576px){
+
+div.section.section-text {
+	padding: 20px;
+	color: #424242;
+}
+	div.section.section-text h3{
+	font-weight: bold;
+	margin: 0;
+	font-size: 32px;
+	line-height: 37px;
+}
+.imagenRespaldoDiv{
+	height: 300px;width: 360px;background-position: center;background-size: cover;background-repeat: no-repeat;
+	    border-radius: 6px!important;
+	    
+}
+}

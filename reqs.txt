@@ -1,0 +1,17 @@
+--mejoras compliance
+
+--Where to buy subir pagina adminisrtable:
+	-paises en admin
+	-nuevo gestor STORES
+
+	-frontend whre to buy
+--Contacto subir pagina
+
+--footer responsivo
+--product responsivo:
+--boton pdf donde va
+--bull solido
+--lineas mas tenues y delgadas en detalle de producto
+
+--textos cambiar a ingles
+--traductor en frontend
